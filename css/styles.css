@@ -18,6 +18,10 @@
 body {
   background: var(--clr-primary-1-yellow);
   font-size: 1rem;
+  min-height: 100vh;
+  display: flex; /* it works with grid too  */
+  justify-content: center;
+  align-items: center;
 }
 .card-container {
   background: var(--clr-secondary-1-white);
